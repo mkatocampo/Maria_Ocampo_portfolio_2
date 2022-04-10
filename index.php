@@ -72,7 +72,7 @@ include "includes/header.php";
 <section id="Works" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#ffd7e6;position:relative";>
     <div class="container-fluid" style="padding:100px;">    
         <h1 style="font-family: 'Lobster', cursive; color:#8e7f97">Works & Projects</h1>
-        <div style="position:absolute;top:30%;left:10%;display:inline-flex;">
+        <div style="position:relative;top:30%;left:10%;display:inline-flex;">
             <a href="/allProjs.php" style="height:55px;background-color:palevioletred; color:white; padding:10px;";>View all projects</a>
             <div style="border:5px solid palevioletred; height:auto; width:900px;padding:20px; background:linear-gradient(white,#ffd7e6)">
                 
