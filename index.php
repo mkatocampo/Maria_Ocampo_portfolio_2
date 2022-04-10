@@ -1,10 +1,10 @@
 <!-- 
 <?php
-// $pageTitle="Home";
-// include "includes/session.php";
-// include "includes/dbFunctions.php";
-// include "includes/dbConnection.php";
-// include "includes/header.php";
+$pageTitle="Home";
+include "includes/session.php";
+include "includes/dbFunctions.php";
+include "includes/dbConnection.php";
+include "includes/header.php";
 ?> 
 <main>
 
