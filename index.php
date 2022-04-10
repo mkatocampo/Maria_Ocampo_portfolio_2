@@ -1,10 +1,11 @@
+<!-- 
 <?php
-$pageTitle="Home";
-include "includes/session.php";
-include "includes/dbFunctions.php";
-include "includes/dbConnection.php";
-include "includes/header.php";
-?>
+// $pageTitle="Home";
+// include "includes/session.php";
+// include "includes/dbFunctions.php";
+// include "includes/dbConnection.php";
+// include "includes/header.php";
+?> 
 <main>
 
 
@@ -93,20 +94,20 @@ include "includes/header.php";
                         <hr style="background-color: #fff">
                         
                         <?php
-                            $result=getLatestProjects($conn);
-                            $countOfProjs = $result->num_rows;
+                            // $result=getLatestProjects($conn);
+                            // $countOfProjs = $result->num_rows;
                             
-                            if($countOfProjs > 0){
-                                while ($row = $result->fetch_assoc()){
-                                    $time=strtotime($row['created_at']);
-                                    $id = $row['id'];
-                                    $title = $row['title'];
-                                    $description = $row['teaser'];
-                                    $content = $row['proj_text'];
+                            // if($countOfProjs > 0){
+                            //     while ($row = $result->fetch_assoc()){
+                            //         $time=strtotime($row['created_at']);
+                            //         $id = $row['id'];
+                            //         $title = $row['title'];
+                            //         $description = $row['teaser'];
+                            //         $content = $row['proj_text'];
 
-                                    echo  "<li>$title<a href='projDetails.php?id=$id&imageIndex=0' style='color:yellow'> <sub>[Open Project...]</sub></a></li></br>";
-                                }
-                            }
+                            //         echo  "<li>$title<a href='projDetails.php?id=$id&imageIndex=0' style='color:yellow'> <sub>[Open Project...]</sub></a></li></br>";
+                            //     }
+                            // }
                         ?>
                         
                     </div>
@@ -124,7 +125,7 @@ include "includes/header.php";
     </div>
 </section> -->
 
-<section id="Blogs" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#cfe9fe;position:relative";>
+<!-- <section id="Blogs" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#cfe9fe;position:relative";>
     <div style="padding:100px">    
         <h1 style="font-family: 'Lobster', cursive; color:#8e7f97">Blogs</h1>
         <div style="position:absolute;top:30%;left:15%;display:inline-flex;">
@@ -147,6 +148,7 @@ include "includes/header.php";
             <a href="/allBlogs.php" style="height:55px;background-color:teal; color:white; padding:10px;";>View all blogs</a>
         </div>
     </div>
-</section>
-
-<?php include "includes/footer.php"; ?>
+</section> -->
+test
+<?php //include "includes/footer.php"; ?>
+-->

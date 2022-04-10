@@ -1,12 +1,29 @@
+<!-- <?php
+    // $hostname = "localhost";
+    // $username = "dev";
+    // $password = "dev1234";
+    // $dbName = "maria_ocampo_portfolio";
+
+    // $conn = new mysqli($hostname,$username,$password,$dbName);
+
+    // if($conn->connect_error){
+    //     die("Connection failed". $conn->connect_error);
+    // }
+?> -->
+
 <?php
-    $hostname = "localhost";
-    $username = "dev";
-    $password = "dev1234";
-    $dbName = "maria_ocampo_portfolio";
+//Get Heroku ClearDB connection information
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"],1);
+$active_group = 'default';
+$query_builder = TRUE;
+// Connect to DB
+$conn = new mysqli($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
-    $conn = new mysqli($hostname,$username,$password,$dbName);
-
-    if($conn->connect_error){
-        die("Connection failed". $conn->connect_error);
-    }
+if($conn->connect_error){
+    die("Connection failed". $conn->connect_error);
+}
 ?>
