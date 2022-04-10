@@ -1,4 +1,3 @@
-<!-- 
 <?php
 $pageTitle="Home";
 include "includes/session.php";
@@ -118,14 +117,7 @@ include "includes/header.php";
     </div>
 </section>
 
-
-<!-- <section id="Testimonials" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#ffc5da";>
-    <div style="padding:100px;">    
-        <h1 style="font-family: 'Lobster', cursive; color:#8e7f97">Testimonials</h1>
-    </div>
-</section> -->
-
-<!-- <section id="Blogs" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#cfe9fe;position:relative";>
+<section id="Blogs" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#cfe9fe;position:relative";>
     <div style="padding:100px">    
         <h1 style="font-family: 'Lobster', cursive; color:#8e7f97">Blogs</h1>
         <div style="position:absolute;top:30%;left:15%;display:inline-flex;">
@@ -148,7 +140,5 @@ include "includes/header.php";
             <a href="/allBlogs.php" style="height:55px;background-color:teal; color:white; padding:10px;";>View all blogs</a>
         </div>
     </div>
-</section> -->
-test
-<?php //include "includes/footer.php"; ?>
--->
+</section>
+<?php include "includes/footer.php"; ?>
