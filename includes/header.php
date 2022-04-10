@@ -10,7 +10,7 @@
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body style="font-family: 'Inconsolata', monospace; font-size:larger; ">
-    <nav class="navbar fixed-top justify-content-center" style="font-family: 'Lobster', cursive; font-size:x-large; text-shadow: -1px 1px 0 #000;">
+    <nav class="navbar fixed-top justify-content-center" style="font-family: 'Lobster', cursive; font-size:x-large; text-shadow: -1px 1px 0 #000;background-color:#8e7f97">
         <a class="navbar-brand" href="#">
             <img src="assets/katlogo2.png" width="50" height="50" alt="">
         </a>
