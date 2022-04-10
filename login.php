@@ -42,7 +42,7 @@ include "includes/header.php";
 
                     $_SESSION['username'] = $username;
                     $_SESSION['password'] = $password;
-                    redirectTo('home.php');
+                    redirectTo('index.php');
                 }
                 else{
                     echo "Invalid Username/Password.";
