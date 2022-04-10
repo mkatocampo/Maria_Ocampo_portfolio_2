@@ -93,20 +93,20 @@ include "includes/header.php";
                         <hr style="background-color: #fff">
                         
                         <?php
-                            // $result=getLatestProjects($conn);
-                            // $countOfProjs = $result->num_rows;
+                            $result=getLatestProjects($conn);
+                            $countOfProjs = $result->num_rows;
                             
-                            // if($countOfProjs > 0){
-                            //     while ($row = $result->fetch_assoc()){
-                            //         $time=strtotime($row['created_at']);
-                            //         $id = $row['id'];
-                            //         $title = $row['title'];
-                            //         $description = $row['teaser'];
-                            //         $content = $row['proj_text'];
+                            if($countOfProjs > 0){
+                                while ($row = $result->fetch_assoc()){
+                                    $time=strtotime($row['created_at']);
+                                    $id = $row['id'];
+                                    $title = $row['title'];
+                                    $description = $row['teaser'];
+                                    $content = $row['proj_text'];
 
-                            //         echo  "<li>$title<a href='projDetails.php?id=$id&imageIndex=0' style='color:yellow'> <sub>[Open Project...]</sub></a></li></br>";
-                            //     }
-                            // }
+                                    echo  "<li>$title<a href='projDetails.php?id=$id&imageIndex=0' style='color:yellow'> <sub>[Open Project...]</sub></a></li></br>";
+                                }
+                            }
                         ?>
                         
                     </div>
