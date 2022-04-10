@@ -50,7 +50,7 @@ include "includes/header.php";
             </div>
             <div class="col-2 text-right">
                 <?php if(isset($_SESSION['username'])){?>
-                    <a href ="projCreate.php">New Project</a>
+                    <a style="color:yellow" href="projCreate.php">New Project</a>
                 <?php } ?>
             </div>
         </div>
