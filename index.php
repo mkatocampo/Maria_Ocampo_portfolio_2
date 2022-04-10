@@ -70,14 +70,17 @@ include "includes/header.php";
 </section>
 
 <section id="Works" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#ffd7e6;position:relative";>
-    <div class="container-fluid" style="padding:100px;">    
+    <div style="padding:100px;">    
         <h1 style="font-family: 'Lobster', cursive; color:#8e7f97">Works & Projects</h1>
-        <div style="position:absolute;top:30%;left:10%;display:inline-flex;">
+        <br><br>
+        <div class="row" width="80%">
+            
+            <div class="col-2"></div>
+
             <a href="/allProjs.php" style="height:55px;background-color:palevioletred; color:white; padding:10px;";>View all projects</a>
-            <div style="border:5px solid palevioletred; height:auto; width:900px;padding:20px; background:linear-gradient(white,#ffd7e6)">
-                
-                <div class="row" style="padding: 10px;opacity: 0.6;">
-                    <div style="background-color:palevioletred; color: white; text-align:justify;width:1000px">
+            <div class="col-8" style="border:5px solid palevioletred; height:auto; width:100%;padding:20px; background:linear-gradient(white,#ffd7e6)">    
+                <div style="padding: 10px;opacity: 0.6;">
+                    <div style="background-color:palevioletred; color: white; text-align:justify;width:100%">
                         <h2>Latest Projects</h2>
                         <hr style="background-color: #fff">
                         
@@ -100,33 +103,42 @@ include "includes/header.php";
                         
                     </div>
                 </div>
-
             </div>
+
+            <div class="col-2"></div>
+
         </div>
     </div>
 </section>
 
 <section id="Blogs" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#cfe9fe;position:relative";>
-    <div class="container-fluid" style="padding:100px">    
+    <div style="padding:100px;">    
         <h1 style="font-family: 'Lobster', cursive; color:#8e7f97">Blogs</h1>
-        <div style="position:absolute;top:30%;left:15%;display:inline-flex;">
-            <div style="border:5px solid teal; height:auto; width:900px;padding:20px; background:linear-gradient(white,#cfe9fe)">
-                
+        <br><br>
+        <div class="row" width="80%">
+
+            <div class="col-2"></div>
+            
+            <div class="col-8" style="border:5px solid teal; height:auto; width:100%;padding:20px; background:linear-gradient(white,#cfe9fe)">
                 <div class="row" style="padding: 10px;opacity: 0.6">
                     <div class="col-7" style="background-color:teal; color: white; text-align:justify; ">
                         <h2>Some stuff about cats, I mean Kat!</h2>
                         <hr style="background-color: #fff">
-                        <p>Sharing things I have learned, learning and want to learn. If you are a business person and want to transition to IT, maybe this blog can help.</br> 
-                            Check out my blogs to see what I've been up to lately.</p>
-                        <p>I write things about my studies, work and of course, about myself! If there is anything you want to know from me, drop me a message <a href="contact.php" style="color: yellow">>>here<<</a> </p>
+                        <p>Sharing things I have learned, learning and want to learn. 
+                            If you are a business person and want to transition to IT, maybe this blog can help.</p>
+                        <p>Check out my blogs to see what I've been up to lately.
+                            I write things about my studies, work and of course, about myself! 
+                            If there is anything you want to know from me, drop me a message<a href="contact.php" style="color: yellow">>>here<<</a> 
+                        </p>
                     </div>
                     <div class="col-5">
-                        <img src="assets/kat1.png" style="object-fit:contain; width: 340px;">
+                        <img src="assets/kat1.png" style="object-fit:contain; width:100%; ">
                     </div>
                 </div>
-
             </div>
             <a href="/allBlogs.php" style="height:55px;background-color:teal; color:white; padding:10px;";>View all blogs</a>
+            
+            <div class="col-2"></div>
         </div>
     </div>
 </section>
