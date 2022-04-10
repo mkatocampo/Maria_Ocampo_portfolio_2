@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 Maria_Ocampo_portfolio_2/
+web: vendor/bin/heroku-php-apache2
