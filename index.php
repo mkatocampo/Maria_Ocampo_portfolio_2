@@ -9,11 +9,10 @@ include "includes/header.php";
 
 
 <section id="Welcome" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#8e7f97";>
-    <div style="padding:100px;">    
-        <div style="position:absolute;text-align:center;margin:auto;">
+    <div style="padding:100px;text-align:center">    
+        <div style="position:absolute;margin:auto;">
             <img src="assets/kat.gif" style="border-radius: 50%; max-width:80%; max-height:80%"/>
         </div>
-        
     </div>
 </section>
 
