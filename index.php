@@ -11,17 +11,17 @@ include "includes/header.php";
 <section id="Welcome" style="box-sizing:border-box; width: 100%; height: 100vh;background-color:#8e7f97";>
     <div style="padding:100px;">    
         
-        <svg viewBox="0 0 500 500">
+        <!-- <svg viewBox="0 0 500 500">
             <path id="curve" d="M150.0,125.6c4-6.1,18.5-130.8,190.6-65.6c80.3,10.2,55.8,10.3,160.1,1" style="fill:transparent"/>
             <text width="500" style="font-family: 'Lobster', cursive; fill:#dbc9e5; font-size:30px;text-shadow: 2px 2px #ff0000;">
                 <textPath xlink:href="#curve">
                     Hi, I am Maria!
                 </textPath>
             </text>
-        </svg>
+        </svg> -->
 
         <div style="position:absolute;top:30%;left:30%;text-align:center;margin:auto;">
-            <img src="assets/avatar.gif" style="border-radius: 50%; max-width:80%; max-height:80%"/>
+            <img src="assets/kat.gif" style="border-radius: 50%; max-width:80%; max-height:80%"/>
         </div>
         
     </div>
